@@ -27,7 +27,6 @@ body{
 
 .nav-link-hover{
     position: relative;
-    overflow: hidden;
 }
 
 .nav-link-hover::before{
