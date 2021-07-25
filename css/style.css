@@ -29,7 +29,8 @@ body{
 }
 
 .section-text{
-    font-size: 18px;
+    font-size: 16px;
+    color: #7D7987;
 }
 
 /* navbar style */
@@ -70,7 +71,7 @@ body{
 /* hero style */
 
 .hero-sec{
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 /* .hero-margin{
@@ -100,15 +101,16 @@ body{
 /* services style */
 
 .services-sec{
+    padding: 30px 0 60px;
     background: url('../img/Frame.png');
     background-position: left center;
     background-repeat: no-repeat;
 }
 
 .card-style{
-    padding: 40px 10px 20px;
+    padding: 40px 20px 20px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
 }
 
 .card-heading{
@@ -121,6 +123,20 @@ body{
     text-align: justify;
     font-size: 16px;
     color: #7D7987;
+}
+
+.btn-card{
+    color: #458FF6;
+    background-color: #ffffff;
+    padding: 8px 30px;
+    border: 1px solid #458FF6;
+    border-radius: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.btn-card:hover{
+    background-color: #458FF6;
+    color: #ffffff;
 }
 
 /* responsive style */
