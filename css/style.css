@@ -259,6 +259,31 @@ body{
     margin-bottom: 10px;
 }
 
+/* footer style */
+
+.footer-sec{
+    background-color: #458FF6;
+    padding: 60px 0;
+}
+
+.footer-logo{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.footer-text{
+    width: 60%;
+    color: #f0f0f0;
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.footer-copyright{
+    color: #f0f0f0;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
 /* responsive style */
 
 @media (max-width: 768px) {
