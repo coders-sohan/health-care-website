@@ -12,6 +12,26 @@ body{
     box-shadow: none;
 }
 
+.section-title{
+    padding: 10px 0 30px;
+    font-size: 36px;
+    position: relative;
+}
+
+.section-title::after{
+    position: absolute;
+    content: '';
+    left: 47%;
+    bottom: 0;
+    background: #33383e;
+    height: 2px;
+    width: 7%;
+}
+
+.section-text{
+    font-size: 18px;
+}
+
 /* navbar style */
 
 .nav-logo{
@@ -49,9 +69,13 @@ body{
 
 /* hero style */
 
-.hero-margin{
-    margin-top: 8%;
+.hero-sec{
+    padding: 80px 0;
 }
+
+/* .hero-margin{
+    margin-top: 8%;
+} */
 
 .hero-header{
     font-weight: 400;
@@ -59,6 +83,7 @@ body{
 
 .hero-text{
     font-size: 18px;
+    color: #7D7987;
 }
 
 .btn-general{
@@ -70,6 +95,32 @@ body{
 
 .btn-general:hover{
     color: #eeeeee;
+}
+
+/* services style */
+
+.services-sec{
+    background: url('../img/Frame.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.card-style{
+    padding: 40px 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-heading{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.card-desc{
+    text-align: justify;
+    font-size: 16px;
+    color: #7D7987;
 }
 
 /* responsive style */
