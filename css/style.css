@@ -162,7 +162,6 @@ body{
     width: 10%;
     height: 3px;
     background-color: #33383e;
-    overflow: hidden;
 }
 
 .healthcare-desc{
@@ -332,6 +331,71 @@ body{
         text-align: center;
     }
     .hero-img-padding{
+        margin-top: 30px;
+    }
+    .mt-md-6{
+        margin-top: 80px;
+    }
+    .img-md-fluid{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .testimonial-img-fluid{
+        width: 50%;
+    }
+    .healthcare-text,
+    .download-text{
+        padding: 0;
+    }
+    .healthcare-title::after,
+    .download-title::after{
+        left: 45%;
+    }
+    .healthcare-desc,
+    .download-desc{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .footer-copyright{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .section-title{
+        font-size: 20px;
+    }
+    .btn-general{
+        display: block;
+    }
+    .healthcare-title,
+    .download-title{
+        margin-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .healthcare-desc,
+    .download-desc{
+        width: 90%;
+        text-align: center;
+    }
+    .btn-sm-center{
+        text-align: center;
+    }
+    .w-sm-100,
+    .footer-text{
+        width: 100%;
+    }
+    .testimonial-client-name{
+        margin-top: 30px;
+    }
+    .footer-list-header{
         margin-top: 30px;
     }
 }
